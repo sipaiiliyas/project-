@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm a Frontend developer with a passion for creating beautiful and functional websites. I love coding and learning new technologies.</p>
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project">
+            <h2>calculator</h2>
+            <p>The Calculator Project is  designed to perform a variety of mathematical operations, ranging from basic arithmetic (addition, subtraction, multiplication, division) to advanced functions like square roots and percentages. Built using  technologies like HTML, CSS, JavaScript, </p>
+        </div>
+        <div class="project">
+            <h2>Quiz App</h2>
+            <p>A Quiz App built using HTML, CSS, and JavaScript is an interactive web application designed to test users' knowledge on various topics. The app typically features:</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
